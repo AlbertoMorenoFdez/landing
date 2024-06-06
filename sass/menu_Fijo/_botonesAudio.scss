@@ -1,0 +1,61 @@
+#play {
+    width: 30px;
+    height: 30px;
+    
+}
+
+#pause {
+    width: 30px;
+    height: 30px;
+    
+    display: none;
+
+}
+
+
+@media (max-width: 1200px) {
+    #play {
+        
+        font-size: 35px;
+    }
+
+    #pause {
+        width: 25px;
+        height: 25px;
+        font-size: 35px;
+        display: none;
+
+    }
+}
+
+@media (max-width: 990px) {
+    #play {
+        font-size: 30px;
+    }
+
+    #pause {
+        font-size: 30px;
+        display: none;
+
+    }
+
+    @media (max-width: 870px) {
+        #play {
+            width: 25px;
+            height: 25px;
+            font-size: 25px;
+        }
+
+        #pause {
+            font-size: 25px;
+            display: none;
+
+        }
+
+      
+    }
+}
+
+#pauseRes{
+    display: none;
+}
